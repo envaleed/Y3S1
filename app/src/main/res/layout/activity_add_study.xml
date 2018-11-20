@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStudy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject Name"
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/courseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Study Topic"
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/studyTopic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Study Goal"
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/topicDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deadline Date"
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="insert date"
+            android:focusable="false"
+            android:textSize="20dp"
+            android:layout_above = "@+id/study_date" />
+
+       <Button
+            android:id="@+id/study_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Deadline Date"></Button>
+
+
+       <!-- <TextView
+            android:id="@+id/studyGoal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Study Goal"
+            android:visibility="visible"
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/StudyDetail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:visibility="visible"/>
+-->
+        <TextView
+            android:id="@+id/goalText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date"
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/date_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="insert date"
+            android:textSize="20dp"
+            android:focusable="false"
+            android:visibility="visible"/>
+
+       <Button
+            android:id="@+id/study_date1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Remainder Date"
+            android:visibility="visible">
+       </Button>
+
+        <CheckBox
+            android:id="@+id/cancelCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="task complete"
+            android:visibility="invisible"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/baseline_add_black_24dp"/>
+
+     <!--   <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:clickable="true"
+            app:srcCompat="@drawable/baseline_add_black_24dp" />-->
+    </LinearLayout>
+</ScrollView>

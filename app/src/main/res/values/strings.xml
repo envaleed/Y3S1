@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Splash</string>
+    <string name="nav_notif">Notification</string>
+    <string name="nav_study">Study</string>
+    <string name="nav_home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Assignment">Assignment</string>
+    <string name="nav_budget">Budget</string>
+    <string name="nav_personal">Personal</string>
+    <string name="nav_add">Add</string>
+    <string name="date_picker_title">Date/Time of study</string>
+    
+    <string-array name="ReminderList">
+        <item>How Many Times You Want To Be Reminded</item>
+        <item name="one">1 time</item>
+        <item name="two">2 Times</item>
+        <item name ="three">3 Times</item>
+        <item name = "four">4 Times</item>
+        <item name ="five">5 Times</item>
+    </string-array>
+
+    <string-array name="RepeatInterval">
+        <item>How Many Times You Want To Be Reminded</item>
+        <item name="minute">every minute</item>
+        <item name="thirty_minute">every thirty minute</item>
+        <item name="hour">every hour</item>
+        <item name ="day">every day</item>
+        <item name ="week">every week</item>
+    </string-array>
+</resources>

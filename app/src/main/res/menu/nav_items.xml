@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_hame"
+        android:icon="@drawable/baseline_home_black_24dp"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/nav_study"
+        android:icon="@drawable/outline_library_books_white_24dp"
+        android:title="@string/nav_study" />
+    <item
+        android:id="@+id/nav_assignment"
+        android:icon="@drawable/baseline_chrome_reader_mode_black_24dp"
+        android:title="@string/Assignment" />
+    <item
+        android:id="@+id/nav_budget"
+        android:icon="@drawable/baseline_attach_money_black_24dp"
+        android:title="@string/nav_budget" />
+    <item
+        android:id="@+id/nav_personal"
+        android:icon="@drawable/baseline_face_black_24dp"
+        android:title="@string/nav_personal" />
+</menu>
